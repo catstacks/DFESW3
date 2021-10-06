@@ -29,13 +29,13 @@
 
 # 4. Write a Python program to reverse a string. Sample String : "1234abcd". Expected Output : "dcba4321"
 
-# word = str(input("Input a word to reverse: "))
+word = str(input("Input a word to reverse: "))
 
-# def reverse_str(word):
-#     for char in range(len(word) - 1, -1, -1):
-#         print(word[char], end="")
-#         #print("\n")
-# print(reverse_str())
+def reverse_str(word):
+    for char in range(len(word) - 1, -1, -1):
+        print(word[char], end="")
+        #print("\n")
+print(reverse_str(word))
 
 # Sample solution below 
 # def string_reverse(str1):
