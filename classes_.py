@@ -20,18 +20,19 @@
 #         self.age = age
 #         self.class_= class_
 
-#     def test_score(score1, score2, score3):
-#         return (score1 + score2 + score3)/3
+#     # def test_score(score1, score2, score3):
+#     #     return (score1 + score2 + score3)/3
 
-# student1 = students()
+# student1 = students('Cher', 20)
+# print(student1.name)
 
-class Letterchecker():
-    vowels = 'aeiou'
-    def checkthing(self,x):
-        return x.lower() in self.vowels
-vowelchecker = Letterchecker()
-for i in 'dog':
-    print(vowelchecker.checkthing(i))
+# class Letterchecker():
+#     vowels = 'aeiou'
+#     def checkthing(self,x):
+#         return x.lower() in self.vowels
+# vowelchecker = Letterchecker()
+# for i in 'dog':
+#     print(vowelchecker.checkthing(i))
 
 
 
